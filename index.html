@@ -1,0 +1,70 @@
+<!doctype html>
+<html lang="en" data-theme="dark" style="font-size: 1rem;">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Color Grading and Splats Relighting</title>
+  </head>
+  <body>
+
+    <!-- Sidebar that contains the controls -->
+    <aside style="position: absolute; padding: 1em;">
+
+      <label>
+        Rotation speed
+        <input id="rotation-speed" type="range" min="0" max="0.1" step="0.001" value="0.01" />
+      </label>
+
+      <label>
+        Inclinaison (dessus / dessous)
+        <input type="range" id="tilt" min="-180" max="180" value="0" step="1" />
+      </label>
+
+      <label>
+        Fond (noir / blanc)
+        <input type="range" id="background-color" min="0" max="100" value="0" step="1" />
+      </label>
+
+      <label>
+        Example color picker
+        <input id="example-color-picker" type="color" value="#FFFFFF" />
+      </label>
+
+      <label>
+        Teinte (Hue)
+        <input type="range" id="hue" min="-180" max="180" step="1" value="0" />
+      </label>
+
+      <label>
+        Saturation
+        <input type="range" id="saturation" min="-100" max="100" step="1" value="0" />
+      </label>
+
+      <label>
+        Luminosité (Brightness)
+        <input type="range" id="brightness" min="-50" max="50" step="0.1" value="0" />
+      </label>
+
+      <label>
+        Lift (ombres)
+        <input type="color" id="lift-color" value="#808080" />
+      </label>
+
+      <label>
+        Gamma (tons moyens)
+        <input type="color" id="gamma-color" value="#808080" />
+      </label>
+
+      <label>
+        Gain (hautes lumières)
+        <input type="color" id="gain-color" value="#808080" />
+      </label>
+
+      <button id="toggle-sh">Harmoniques sphériques : ON</button>
+
+
+    </aside>
+
+    <script type="module" src="/main.ts"></script>
+  </body>
+</html>
