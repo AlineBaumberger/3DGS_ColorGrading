@@ -11,17 +11,26 @@
     <aside style="position: absolute; padding: 1em;">
 
       <label>
+        Splat choice
+        <select id="insect-selector">
+          <option value="butterfly.spz">Papillon (exemple)</option>
+          <option value="turquoise_resized.spz">Turquoise</option>
+          <option value="argente_resized.spz">Argenté</option>
+        </select>
+      </label>
+
+      <label>
         Rotation speed
         <input id="rotation-speed" type="range" min="0" max="0.1" step="0.001" value="0.01" />
       </label>
 
       <label>
-        Inclinaison (dessus / dessous)
+        Tilt
         <input type="range" id="tilt" min="-180" max="180" value="0" step="1" />
       </label>
 
       <label>
-        Fond (noir / blanc)
+        Background (black / white)
         <input type="range" id="background-color" min="0" max="100" value="0" step="1" />
       </label>
 
@@ -31,7 +40,7 @@
       </label>
 
       <label>
-        Teinte (Hue)
+        Hue
         <input type="range" id="hue" min="-180" max="180" step="1" value="0" />
       </label>
 
@@ -41,26 +50,26 @@
       </label>
 
       <label>
-        Luminosité (Brightness)
+        Brightness
         <input type="range" id="brightness" min="-50" max="50" step="0.1" value="0" />
       </label>
 
       <label>
-        Lift (ombres)
+        Lift 
         <input type="color" id="lift-color" value="#808080" />
       </label>
 
       <label>
-        Gamma (tons moyens)
+        Gamma
         <input type="color" id="gamma-color" value="#808080" />
       </label>
 
       <label>
-        Gain (hautes lumières)
+        Gain
         <input type="color" id="gain-color" value="#808080" />
       </label>
 
-      <button id="toggle-sh">Harmoniques sphériques : ON</button>
+      <button id="toggle-sh">Spherical Harmonics : ON</button>
 
 
     </aside>
