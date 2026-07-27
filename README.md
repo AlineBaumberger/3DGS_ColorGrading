@@ -56,6 +56,5 @@ This project offers several levels of intervention on Gaussian Splats and more p
 ## Resources
 
 - [Spark documentation](https://sparkjs.dev/docs/)
-// todo
-- [Blinn-Phong model](https://cientistavuador.github.io/articles/1_en-us.html)
+- [Blinn-Phong model](https://cientistavuador.github.io/articles/1_en-us.html) // todo
 - [PBR Book Roughness & Microfacet Theory](https://pbr-book.org/4ed/Reflection_Models/Roughness_Using_Microfacet_Theory)
