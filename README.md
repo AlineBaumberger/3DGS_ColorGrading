@@ -8,6 +8,9 @@ A scanned insect (3DGS) serves as the subject of experimentation: it lets you ad
 
 This project offers several levels of intervention on Gaussian Splats and more precisely Spherical Harmonics from global recoloring to point light simulation with Blinn-Phong and exporting the baked lighting into the spherical harmonics.
 
+## Run
+- npm run dev
+
 ## Tech stack
 
 | Tool | Role |
