@@ -29,18 +29,7 @@ This project offers several levels of intervention on Gaussian Splats and more p
 - **Spherical harmonics toggle**, to observe their effect on the render depending on viewing angle
 - **Adjustable background** (grayscale level)
 - **Splat normal estimation** (`GsplatNormal`) with false-color visualization
-- **Point light simulation** using a Blinn-Phong lighting model applied to the splats
-- **Surface roughness estimation** derived from the amplitude of the spherical harmonics coefficients
-- **Export** of color modifications (and, if enabled, the baked lighting) to a save file that can be reimported
 
-## Installation
-
-```bash
-npm install
-npm run dev
-```
-
-The site is then available at [http://localhost:5173/](http://localhost:5173/).
 
 ## Project structure
 
@@ -64,5 +53,6 @@ The site is then available at [http://localhost:5173/](http://localhost:5173/).
 ## Resources
 
 - [Spark documentation](https://sparkjs.dev/docs/)
+// todo
 - [Blinn-Phong model](https://cientistavuador.github.io/articles/1_en-us.html)
 - [PBR Book Roughness & Microfacet Theory](https://pbr-book.org/4ed/Reflection_Models/Roughness_Using_Microfacet_Theory)
