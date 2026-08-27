@@ -1,12 +1,12 @@
-# Color Grading & Relighting for 3D Gaussian Splats
+# Color Grading for 3D Gaussian Splats
 
-This project explores color grading and relighting of objects reconstructed with **3D Gaussian Splatting (3DGS)**, directly in the browser, using [Spark](https://sparkjs.dev) and [Three.js](https://threejs.org).
+This project explores color grading of objects reconstructed with **3D Gaussian Splatting (3DGS)**, directly in the browser, using [Spark](https://sparkjs.dev) and [Three.js](https://threejs.org).
 
-A scanned insect (3DGS) serves as the subject of experimentation: it lets you adjust its appearance in real time (color, exposure, simulated lighting) and export the result.
+Scanned insects (3DGS) I scanned with the macro scAnt serve as the subject of experimentation. 
 
 ## Overview
 
-This project offers several levels of intervention on Gaussian Splats and more precisely Spherical Harmonics from global recoloring to point light simulation with Blinn-Phong and exporting the baked lighting into the spherical harmonics.
+This project offers several levels of intervention on Gaussian Splats and more precisely Spherical Harmonics from global recoloring of attributes Hue/Brightness/Saturation per splat (CPU) to more advanced cinema style gradien Lift/Gamma/Gain implemented via Dyno (GPU).
 
 ## Run
 - npm run dev
@@ -38,11 +38,12 @@ This project offers several levels of intervention on Gaussian Splats and more p
 
 ```
 .
+├── images
+    └── .png
+├── models
+    └── .spz
 ├── index.html          
-├── src/
-│   └── main.ts          
-├── public/
-│   └── *.spz           
+├── main.ts                    
 ├── package.json
 └── vite.config.ts
 ```
