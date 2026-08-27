@@ -2,7 +2,7 @@
 
 This project explores color grading of objects reconstructed with **3D Gaussian Splatting (3DGS)**, directly in the browser, using [Spark](https://sparkjs.dev) and [Three.js](https://threejs.org).
 
-Scanned insects (3DGS) I scanned with the macro scAnt serve as the subject of experimentation. 
+Scanned insects (3DGS) I scanned with the macro scAnt serve as the subject of experimentation, they are exported in SPZ for easier compatibility. 
 
 ## Overview
 
